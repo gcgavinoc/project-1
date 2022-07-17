@@ -41,6 +41,32 @@ header {
     border-bottom: 1px solid black;
 }
 
+/* About me section */
+
+#about-me {
+    height: 600px;
+}
+
+#greeting {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#languages {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#profile-image {
+    width: 33%;
+    margin: 0 auto;
+    background-color: silver;
+}
+
 /* footer */
 
 footer {

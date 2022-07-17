@@ -66,15 +66,17 @@ header {
 }
 
 .greeting-text {
+    padding-top: 50px;
     width: 60%;
     float: right;
-    line-height: 20px;
+    font-size: 150%;
 }
 
 .languages-text {
+    padding-top: 50px;
     width: 60%;
     float: left;
-    line-height: 20px;
+    font-size: 150%;
 }
 
 #profile-image-container {

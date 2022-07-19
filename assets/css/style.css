@@ -53,7 +53,6 @@ header {
     width: 33%;
     height: 450px;
     float: left;
-    background-color: green;
 }
 
 .right-box {
@@ -61,13 +60,11 @@ header {
     width: 33%;
     height: 450px;
     float: right;
-    background-color: blue;
 }
 
 #profile-image {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
 }
 
 #greeting-text {
@@ -83,27 +80,30 @@ header {
     text-align: center;
     padding-left: 50px;
     width: 70%;
-    padding-top: 20%;
+    padding-top: 15%;
     font-size: 150%;
     line-height: 40px;
 }
 
 #work-history {
-    text-align: center;
-    padding-left: 50px;
-    width: 70%;
-    padding-top: 25%;
+    padding-left: 10px;
     font-size: 150%;
     line-height: 40px;
 }
 
+#work-history li {
+    font-size: 80%;
+}
+
 #education-history {
-    text-align: center;
     padding-left: 50px;
-    width: 70%;
-    padding-top: 25%;
+    padding-top: 1px;
     font-size: 150%;
     line-height: 40px;
+}
+
+#work-history h2, #education-history h2 {
+    text-align: center;
 }
 
 #languages-text li, #work-history li, #education-history li {

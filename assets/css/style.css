@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
     margin: auto;
 }
 
-#background {
+.background {
     width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -37,7 +38,7 @@ header {
     display: inline-block;
     list-style-type: none;
     margin-right: 30px;
-    color: black;
+    color: white;
 }
 
 #nav-bar a {
@@ -46,11 +47,12 @@ header {
 }
 
 #nav-bar a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid orangered;
+    color: orangered;
 }
 
 .selected {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 /* About me section */
@@ -136,12 +138,13 @@ img {
         padding: 15px 32px 15px 32px;
         text-align: center;
         font-size: 100%;
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
 }
 
 #reach-out-button:hover {
-    background-color: blue;
+    background-color: orangered;
+    color: white;
 }
 
 /* footer */
@@ -167,7 +170,11 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: black;
+    color: white;
+}
+
+.social-media-links i:hover {
+    color: orangered;
 }
 
 /* Contact form */
@@ -176,7 +183,6 @@ footer {
     text-align: center;
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: black;
     max-width: 400px;
     position: absolute;
     top: 0.5%;
@@ -200,7 +206,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: blue;
+    border-color: orangered;
 }
 
 .join-button {
@@ -216,6 +222,6 @@ footer {
 }
 
 .join-button:hover {
-    background-color: blue;
+    background-color: orangered;
     color: white;
 }

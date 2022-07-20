@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Abel', sans-serif;
     color: white;
 }
 
@@ -22,6 +22,10 @@ header {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+i {
+    color: orangered;
 }
 
 /* navigation links */
@@ -100,10 +104,17 @@ header {
     line-height: 40px;
 }
 
+#languages-text li {
+    position: relative;
+    left: -6%;
+}
+
 #work-history {
     padding-left: 10px;
     font-size: 150%;
     line-height: 40px;
+    position: relative;
+    top: -40px;
 }
 
 #work-history li {
@@ -115,6 +126,8 @@ header {
     padding-top: 1px;
     font-size: 150%;
     line-height: 40px;
+    position: relative;
+    top: -40px;
 }
 
 #work-history h2, #education-history h2 {

@@ -90,6 +90,17 @@ i {
 #profile-image {
     width: 33%;
     margin: 0 auto;
+
+    /* animates zoom effect on loading page */
+    animation-name: profile-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes profile-zoom {
+    from {transform: scale(0.8);}
+    to {transform: scale(1);}
 }
 
 /* Left side text for index.html */

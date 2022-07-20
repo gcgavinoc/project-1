@@ -97,7 +97,7 @@ i {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+/* creates the level of zoom for profile image */
 @keyframes profile-zoom {
     from {transform: scale(0.8);}
     to {transform: scale(1);}
@@ -176,7 +176,7 @@ img {
 
 #reach-out-button {
         position: absolute;
-        margin-left: 10%;
+        margin-left: 12%;
         margin-top: 1%;
         border-radius: 2px;
         padding: 15px 32px 15px 32px;

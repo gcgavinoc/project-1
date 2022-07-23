@@ -273,7 +273,7 @@ footer {
 
 /* Media Queries */
 
-/* For larger to medium screen size from 950px wide and down */
+/* For larger screen sizes from 1455px wide and up */
 
 @media screen and (min-width: 1455px) {
 
@@ -282,3 +282,37 @@ footer {
     }
     
 }
+
+/* For tablet screen sizes from 768px wide and down */
+
+@media screen and (max-width: 768px) {
+
+    .left-box {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        top: -40%;
+        left: 9%;
+    }
+
+    #profile-image {
+        display: inline-block;
+        position: relative;
+        top: -60%;
+        left: 33%;
+    }
+
+    #reach-out {
+        position: relative;
+        top: -60%;
+        left: 26%;
+    }
+
+    .right-box {
+        position: relative;
+        top: -10%;
+        left: -37%;
+    }
+    
+}
+

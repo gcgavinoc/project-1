@@ -391,10 +391,6 @@ footer {
         left: 20%;
     }
 
-    #reach-out {
-
-    }
-
     #right-box-languages {
         width: 60%;
         position: relative;
@@ -437,8 +433,29 @@ footer {
         left: -4%;
     }
 
-    .contact-form {
-        left: 20%;
+    .form-section {
+        position: absolute;
+        top: -30%;
+        left: 25%;
+    }
+
+    .send-button {
+        position: relative;
+        left: -33%;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    .social-media-links {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .send-button {
+        
     }
 
     .social-media-links > li {

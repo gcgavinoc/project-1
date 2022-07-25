@@ -409,8 +409,10 @@ footer {
     #left-box-work {
         display: inline-block;
         width: 100%;
-        position: relative;
-        top: -10%;
+        position: absolute;
+        top: 10%;
+        left: 0px;
+        text-align: left;
     }
 
     #left-box-work h2 {
@@ -418,19 +420,46 @@ footer {
         left: -2%;
     }
 
+    #work-history {
+        padding-left: 0px;
+        margin-left: 0px;
+        position: absolute;
+        left: 0;
+    }
+
+    #work-history ul {
+        margin-left: 0;
+        padding-left: 1%;
+    }
+
     #profile-image-history {
-        display: inline-block;
-        position: relative;
-        top: -120%;
-        left: 33%;
+        visibility: hidden;
     }
 
     #right-box-education {
         display: inline-block;
         width: 100%;
-        position: relative;
-        top: 2%;
+        position: absolute;
+        top: 60%;
         left: -4%;
+    }
+
+    #education-history {
+        padding-left: 0px;
+        margin-left: 0px;
+        position: absolute;
+        left: 0;
+        text-align: left;
+    }
+
+    #education-history h2 {
+        position: relative;
+        top: 10%;
+    }
+
+    #education-history ul {
+        margin-left: 0;
+        padding-left: 5%;
     }
 
     .form-section {

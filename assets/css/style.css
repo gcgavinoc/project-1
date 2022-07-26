@@ -424,6 +424,7 @@ footer {
         padding-left: 0px;
         margin-left: 0px;
         position: absolute;
+        top: -1%;
         left: 0;
     }
 
@@ -433,14 +434,15 @@ footer {
     }
 
     #profile-image-history {
-        visibility: hidden;
+        position: absolute;
+        top: 69%;
     }
 
     #right-box-education {
         display: inline-block;
         width: 100%;
         position: absolute;
-        top: 60%;
+        top: 90%;
         left: -4%;
     }
 
@@ -448,6 +450,7 @@ footer {
         padding-left: 0px;
         margin-left: 0px;
         position: absolute;
+        top: 1%;
         left: 0;
         text-align: left;
     }
@@ -481,10 +484,6 @@ footer {
         position: fixed;
         bottom: 0;
         width: 100%;
-    }
-
-    .send-button {
-        
     }
 
     .social-media-links > li {

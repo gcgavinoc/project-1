@@ -29,6 +29,14 @@ You can access my live site [here](https://gcgavinoc.github.io/project-1/).
  - [Am I Responsive](#am-i-responsive)
  - [W3C Validator tools](#w3c-validator-tools)
 
+[Manual Testing](#manual-testing)
+
+[Bugs](#bugs)
+
+[Deployment](#deployment)
+
+[Acknowledgements](#acknowledgements)
+
 # User Experience (UX) Design
 [Go to top](#table-of-contents)
 
@@ -210,6 +218,8 @@ After I resolved these errors and once the site was complete, I validated my cod
 
 ## Manual Testing
 
+[Go to top](#table-of-contents)
+
 The site was tested on the following screen sizes:
 1600x992px
 1280x802px
@@ -275,12 +285,17 @@ Video screen size fit | The video background fits correctly on all screen sizes 
 |||
 
 # Bugs
+
+[Go to top](#table-of-contents)
+
 ## Solved Bugs
 - When entering the HTML code for the about me page into the W3C validator, I was presented with an error warning that the section element did not have an associated heading. I did not want to use a heading in this section so I changed the section element to a div element, which resolved the error the next time I validated the code.
 - When entering the HTML code for both the about me and my history pages, I was presented with an error that there was a stray closing i element on the Instagram social media link Font Awesome icon. I deleted the stray element from both pages which resolved the error the next time I validated the code.
 - Image and video assets were not loading correcly on page load on the live site after it was deployed. I discovered that this was because I had used the wrong file path from the HTML code to the image in the assets folder. I had included a / before assets in the file path. Once the / was removed the file path was functional and the image assets loaded correctly.
 
 # Deployment
+
+[Go to top](#table-of-contents)
 
 The site was deployed to GitHub pages using the following steps:
 
@@ -303,6 +318,8 @@ Once it has deployed the page will refresh with the message "Your site is publis
 The live link can be found here - (https://gcgavinoc.github.io/project-1/)
 
 # Acknowledgements
+
+[Go to top](#table-of-contents)
 
 - The initial structure of the Navigation bar, Social media links, and contact form was borrowed from the Love Running project and then modified for this site.
 - The initial keyframe animation code for the profile picture zoom effect was borrowed from the Love Running project and then modified for this site.

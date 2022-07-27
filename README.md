@@ -1,108 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Gavin O'Connor's Resume
+Welcome! My name is Gavin O'Connor and this is my own personal resume/CV website. The purpose of this site is to provide all relevant information about myself and my career to prospective employers. In addition, the site itself also acts as a showcase of my coding ability and can be iterated upon as my coding knowledge grows and I learn new and ever more complex coding methods and languages.
 
-Welcome gcgavinoc,
+This site contains more information about my personal work and education history, as well as a contact form with which employers can reach out to me with employment opportunities. As my portfolio of work grows, I intend to also include a page showcasing that work.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+You can access my live site [here](https://gcgavinoc.github.io/project-1/).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Image of site using Am I Responsive tool](assets/images/readme-images/amiresponsive-index.png)
 
-## Gitpod Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# User Experience (UX) Design
+This websites primary goal is to act as a virtual CV for myself and my software development career. The website therefore needs to be clean and readable in it's design, but also appealing visually so as to showcase my coding abilities and knowledge. The main types of users who will be interacting with this site will be prospective employers looking to hire a software developer for their team or project, or someone looking to hire a programmer for freelance work.
+## User Goals
+This website will act as both a means to showcase my work as a software developer, but also as a showcase itself. Prospective employers should have confidence in my abilities simply by navigating and interacting with this site.
+## User Expectations
+- This site is designed using a minimalist design philosophy. The intention is to avoid clutter and to present only the most pertinent information about myself and my history.
+- The site has a video background that makes the site more dynamic but is not too overt, so as to not distract from the content.
+- The site is easy to Navigate, with the navigation bar being at the top and centered on the page, with the names of each link being clear in the content they will direct the user to on the site.
+- The site is designed to be responsive for desktop, laptop, tablet and mobile screen sizes.
+- The site has a simple and clear welcome page that the user will land on initially, this provides the very basic information about myself as a software developer including a profile picture style image of myself to make the site more personable.
+- The second page includes the most relevant information on my work and education history, again, to avoid the site being too cluttered.
+- The third page contains a form that allows employers to contact me, along with a text input field to enter a reason why. The purpose of this is to seperate the form entries of potential employers from other types of contact attempts, making it easier for myself to sort through later.
+## Color Scheme
+The color scheme I chose for this site was decided upon with the minimalist design philosophy in mind. I decided to have the primary and secondary (or background and foreground) colors be total contrasts of each other, and therefore settled on black and white. The background video includes orange-red in it's visual flairs, and so I decided to make the tertiary (or highlight) color orange-red as well. Certain elements such as icons that act as bullet points for list items are colored orange-red so as to distinguish the list items from each other. As well as this, there are many items that will turn orange-red on mouse hover so that the user knows they are clickable or interactable, such as links or text fields.
+## Images/Videos
+The background for this site across all of it's pages is a looping video, which makes the site feel more dynamic and visually appealing. It is not too overt however, as that may have caused users to watch the video and ignore the content on the page. The video simply uses a black background to contrast the white text, with orange-red visual flairs (sparks) moving across the screen in such a way that the looping nature of the video is not obvious to the user. The primary image I used is a profile picture style image of myself in the center of the about-me and my-history pages. This makes the site more personable, as users can put a face to the name as soon as they load the site, as well as when they read through my history.
+## Site Skeleton
+The design of this website was conceptualized using wireframes from [Balsamiq](https://balsamiq.com/). This allowed me to visualize the layout of the site and it's three pages before I started coding, and thus gave me a better idea of what needed to be included in the code. Below are the wireframes for the three pages of the site. They are slighly different to the final site as I came up with new ideas and designs while the site was in development.
 
-`python3 -m http.server`
+### **About me page**
 
-A blue button should appear to click: _Make Public_,
+![Image of wireframe for about me page](assets/images/readme-images/About-me-page-wireframe.png)
 
-Another blue button should appear to click: _Open Browser_.
+### **My history page**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Iamge of wireframe for my history page](assets/images/readme-images/My-history-page-wireframe.png)
 
-A blue button should appear to click: _Make Public_,
+### **Contact me page**
 
-Another blue button should appear to click: _Open Browser_.
+![Image of wireframe for contact me page](assets/images/readme-images/contact-me-page-wireframe.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Features
+## Navigation bar
+The top of all three pages contains a navigation bar with three buttons, each linking to one of the three pages. The buttons have text that clearly defines the content of the page the button links to. The navigation bar is centered on the page with the buttons spread out evenly from each other. The buttons are white to contrast the black background, with the button for the page the user is currently on being underlined. The buttons turn to an orange-red color when the user hovers their mouse over them, so as to make it clear the button is interactable. An underline also appears when a user hovers over a not already selected button.
 
-To log into the Heroku toolbelt CLI:
+![Image of the navigation bar that appears on the site](assets/images/readme-images/navigation-bar.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## About me page
+The purpose of this page is to act as a quick introducation to what the purpose of the site is, namely introducing myself, my career and the coding languages I know. This page will be the first page the user lands on, as it is the index page, and it makes it immediately clear to the user that this is a resume website for an individual person. This is done by introducing myself with my name and career title, as well as with a picture of myself. The languages I know are also listed so as to not waste the time of any prospective employers who land on my page, if the language they are interested in their potential employees knowing is listed there they can explore the site further or leave if not.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+There is also a button under the picture with the text "Reach out to me!". The reason for this button is to provide the user with a call to action. The end goal of my resume website is to have potential employers reach out to me with employment opportunities, so having this call to action front and center on the sites main page plants that idea in the mind of any user who visits my page. It also changes to an orange-red color when the user hovers their mouse over it to make it more dynamic, another level of incentive for the user to click on it.
 
-------
+![Image of the about me section that appears on the site](assets/images/readme-images/about-me-main-body.png)
 
-## Release History
+## My history page
+This page gives a breakdown of my work and education history, split in two on either side of the profile picture. So as to avoid clutter, I have only included the most important parts of my work and education history, with four examples on each side for the sake of symmetry. This layout and the format in which each example is given is similar to what would be seen on a typical resume/CV, driving home the point that this is a virtual resume site. Each example is bullet pointed with an icon symbolic of the nature of that example. The fourth example from work history is an icon of a laptop on a house, symbolising the work from home nature of that job.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Image of the my history section that appears on the site](assets/images/readme-images/my-history-main-body.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Contact form
+The third page feature a contact form so that the user can contact me with potential employment opportunities. It feature a text input field for first name, last name, and an email input field as well. The fourth field allows the user to enter a reason for why they are contacting me, so that I may better organise the completed contact forms I receive. The input fields change the color of their border to orange-red to show the user they are interactable, as well as the send button changing for the same reason. All fields are required to be filled in before sending and the email field requires an email address format to be entered. Sending a completed form for now will link to a form-dump site provided by code-institute (shown below), presenting the information that was submitted along with a message signifying that the info was submitted successfully. Once I gain a better understanding of other codeing languages such as Javascript, I will change this form to allow it to send to my personal email address.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Image of the contact form that appears on the site](assets/images/readme-images/contact-form.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Social media links
+At the bottom of each page are various links to my social media channels. The links are done with icons of each of the respective social media platforms they represent. They are centered on the page and spread out evenly, similar to the navigation bar. They are white in color to contrast the black background and turn orange-red on mouse hover.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+![Image of the social media links that appear on the site](assets/images/readme-images/social-media-links.png)

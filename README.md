@@ -298,9 +298,9 @@ Under source, click on the branch drop down menu, select main and click save.
 
 The site will then deploy, which may take a few moments.
 
-Refresh the page after a few minutes to see if the message "Your site is published at" appears with a green check mark.
+Once it has deployed the page will refresh with the message "Your site is published at" accompanied by a live page link.
 
-This message will be accompanied by a link to the live deployed site - (https://gcgavinoc.github.io/project-1/)
+The live link can be found here - (https://gcgavinoc.github.io/project-1/)
 
 # Acknowledgements
 

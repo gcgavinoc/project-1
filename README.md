@@ -299,21 +299,21 @@ Video screen size fit | The video background fits correctly on all screen sizes 
 
 The site was deployed to GitHub pages using the following steps:
 
-Navigate to Github - (https://github.com/)
+1. Navigate to Github - (https://github.com/)
 
-Sign up to GitHub.
+2. Sign up to GitHub.
 
-Create a new repository on GitHub called project-1.
+3. Create a new repository on GitHub called project-1.
 
-Click on settings on the navigation bar under the repository title.
+4. Click on settings on the navigation bar under the repository title.
 
-Select the pages tab on the left side menu bar.
+5. Select the pages tab on the left side menu bar.
 
-Under source, click on the branch drop down menu, select main and click save.
+6. Under source, click on the branch drop down menu, select main and click save.
 
-The site will then deploy, which may take a few moments.
+7. The site will then deploy, which may take a few moments.
 
-Once it has deployed the page will refresh with the message "Your site is published at" accompanied by a live page link.
+8. Once it has deployed the page will refresh with the message "Your site is published at" accompanied by a live page link.
 
 The live link can be found here - (https://gcgavinoc.github.io/project-1/)
 

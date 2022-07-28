@@ -288,9 +288,9 @@ footer {
     
 }
 
-/* For tablet screen sizes from 768px wide and down */
+/* For tablet screen sizes from 800px wide and down */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
     #nav-bar {
         z-index: 2;
@@ -357,9 +357,9 @@ footer {
     
 }
 
-/* For mobile screen sizes from 320px wide and down */
+/* For mobile screen sizes from 550px wide and down */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     body {
         font-size: 50%;
     }

@@ -344,4 +344,5 @@ The live link can be found here - (https://gcgavinoc.github.io/project-1/)
 - The font used for the site was taken from [Google Fonts](https://fonts.google.com/).
 - The various icons used for the site were taken from [Font Awesome](https://fontawesome.com/).
 - The Video Background was downloaded from [Pexels](https://www.pexels.com/).
+- The initial CSS code for the video background was borrowed from [Stack Overflow](https://stackoverflow.com/questions/49963974/how-to-add-background-video-to-html-page).
 - Thanks to my mentor Marcel Mulders for his constructive feedback and guidance during the development of this project.

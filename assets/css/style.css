@@ -298,8 +298,6 @@ footer {
     }
 
     #left-box-greeting {
-        display: inline-block;
-        width: 100%;
         position: relative;
         top: -40%;
         left: 9%;
@@ -310,12 +308,6 @@ footer {
         position: relative;
         top: -60%;
         left: 33%;
-    }
-
-    #reach-out {
-        position: relative;
-        top: -60%;
-        left: 26%;
     }
 
     #right-box-languages {
@@ -383,12 +375,6 @@ footer {
         position: relative;
         top: -80%;
         left: 33%;
-    }
-
-    #reach-out {
-        position: relative;
-        top: -80%;
-        left: 20%;
     }
 
     #right-box-languages {

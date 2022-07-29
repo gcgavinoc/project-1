@@ -298,22 +298,27 @@ footer {
     }
 
     #left-box-greeting {
-        position: relative;
-        top: -40%;
-        left: 9%;
+        position: absolute;
+        top: -5%;
+        left: 30%;
     }
 
     #profile-image-about {
-        display: inline-block;
-        position: relative;
-        top: -60%;
+        position: absolute;
+        top: 38%;
         left: 33%;
     }
 
+    #reach-out-button {
+        position: absolute;
+        top: 75%;
+        left: 26%;
+    }
+
     #right-box-languages {
-        position: relative;
-        top: -10%;
-        left: -37%;
+        position: absolute;
+        top: 75%;
+        left: 30%;
     }
 
     #left-box-work {
@@ -339,12 +344,17 @@ footer {
         display: inline-block;
         width: 100%;
         position: relative;
-        top: 2%;
+        top: 10%;
         left: -4%;
     }
 
     .contact-form {
+        top: -10%;
         left: 20%;
+    }
+
+    footer {
+        background-color: orangered;
     }
     
 }

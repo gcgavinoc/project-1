@@ -298,9 +298,15 @@ footer {
     }
 
     #left-box-greeting {
+        width: 100%;
         position: absolute;
-        top: -5%;
-        left: 30%;
+        top: -15%;
+        left: 0%;
+    }
+
+    #greeting-text {
+        position: relative;
+        left: 7%;
     }
 
     #profile-image-about {
@@ -363,7 +369,7 @@ footer {
 
 @media screen and (max-width: 550px) {
     body {
-        font-size: 50%;
+        font-size: 100%;
     }
 
     #nav-bar {
@@ -373,33 +379,43 @@ footer {
     }
 
     #left-box-greeting {
-        display: inline-block;
         width: 100%;
+        position: absolute;
+        top: -8%;
+        left: 0;
+    }
+
+    #greeting-text {
         position: relative;
-        top: -35%;
-        left: -1%;
+        left: 5%;
     }
 
     #profile-image-about {
         display: inline-block;
-        position: relative;
-        top: -80%;
+        position: absolute;
+        top: 32%;
         left: 33%;
+    }
+
+    #reach-out-button {
+        position: absolute;
+        top: 57%;
+        left: 23%;
     }
 
     #right-box-languages {
         width: 60%;
-        position: relative;
-        top: -65%;
-        left: -27%;
+        position: absolute;
+        top: 55%;
+        left: 20%;
     }
 
     #languages-text {
-        line-height: 20px;
+        line-height: 40px;
     }
 
     #languages-text li {
-        left: -20%;
+        left: -15%;
     }
 
     #left-box-work {
@@ -446,7 +462,7 @@ footer {
         padding-left: 0px;
         margin-left: 0px;
         position: absolute;
-        top: 1%;
+        top: 5%;
         left: 0;
         text-align: left;
     }
@@ -463,8 +479,8 @@ footer {
 
     .form-section {
         position: absolute;
-        top: -30%;
-        left: 25%;
+        top: -15%;
+        left: 30%;
     }
 
     .send-button {
@@ -480,10 +496,11 @@ footer {
         position: fixed;
         bottom: 0;
         width: 100%;
+        background-color: orangered;
     }
 
     .social-media-links > li {
         position: relative;
-        left: -15%;
+        left: -10%;
     }
 }

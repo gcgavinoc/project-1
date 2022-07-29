@@ -58,7 +58,7 @@ This website will act as both a means to showcase my work as a software develope
 ## Color Scheme
 [Go to top](#table-of-contents)
 
-The color scheme I chose for this site was decided upon with the minimalist design philosophy in mind. I decided to have the primary and secondary (or background and foreground) colors be total contrasts of each other, and therefore settled on black and white. The background video includes orange-red in it's visual flairs, and so I decided to make the tertiary (or highlight) color orange-red as well. Certain elements such as icons that act as bullet points for list items are colored orange-red so as to distinguish the list items from each other. As well as this, there are many items that will turn orange-red on mouse hover so that the user knows they are clickable or interactable, such as links or text fields.
+The color scheme I chose for this site was decided upon with the minimalist design philosophy in mind. I decided to have the primary and secondary (or background and foreground) colors be total contrasts of each other, and therefore settled on black and white. The background video includes orange-red in it's visual flairs, and so I decided to make the tertiary (or highlight) color orange-red as well. Certain elements such as icons that act as bullet points for list items are colored orange-red so as to distinguish the list items from each other. As well as this, there are many items that will turn orange-red on mouse hover so that the user knows they are clickable or interactable, such as links or text fields. I also added an orange-red background to the footer on the smaller screen sizes, as the social media links in the footer were overlapping the other content on the page at those screen sizes.
 ## Images/Videos
 [Go to top](#table-of-contents)
 
@@ -117,7 +117,7 @@ The third page feature a contact form so that the user can contact me with poten
 ## Social media links
 [Go to top](#table-of-contents)
 
-At the bottom of each page are various links to my social media channels. The links are done with icons of each of the respective social media platforms they represent. They are centered on the page and spread out evenly, similar to the navigation bar. They are white in color to contrast the black background and turn orange-red on mouse hover.
+At the bottom of each page are various links to my social media channels. The links are done with icons of each of the respective social media platforms they represent. They are centered on the page and spread out evenly, similar to the navigation bar. They are white in color to contrast the black background and turn orange-red on mouse hover. For smaller screen sizes the social media links have an orange-red background in order to prevent the icons from overlapping the other content on the page.
 
 ![Image of the social media links that appear on the site](assets/images/readme-images/social-media-links.png)
 

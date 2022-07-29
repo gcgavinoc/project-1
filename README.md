@@ -223,6 +223,8 @@ After I resolved these errors and once the site was complete, I validated my cod
 The site was tested on the following screen sizes:
 1600x992px
 1280x802px
+800px wide
+550px wide
 768x1024px
 320x480px
 
@@ -292,6 +294,7 @@ Video screen size fit | The video background fits correctly on all screen sizes 
 - When entering the HTML code for the about me page into the W3C validator, I was presented with an error warning that the section element did not have an associated heading. I did not want to use a heading in this section so I changed the section element to a div element, which resolved the error the next time I validated the code.
 - When entering the HTML code for both the about me and my history pages, I was presented with an error that there was a stray closing i element on the Instagram social media link Font Awesome icon. I deleted the stray element from both pages which resolved the error the next time I validated the code.
 - Image and video assets were not loading correcly on page load on the live site after it was deployed. I discovered that this was because I had used the wrong file path from the HTML code to the image in the assets folder. I had included a / before assets in the file path. Once the / was removed the file path was functional and the image assets loaded correctly.
+- The index.html "About Me" page had white space to the right and bottom, causing a scroll bar to appear and the footer with social media links to stick to the white space at the bottom of the page. I discovered the cause of this bug by first checking at what width the white space appears using Google Chrome's Developer tools. The white space appeared at 800px wide and down, which is the same width as my one of my media queries. This made me realise the issue must be caused by code in my media queries. In order to check what bit of code was causing the bug exactly, I commented out all of my media query code which removed the white space bug and then re-introduced the code element by element until the white space bug reappeared. The bug reappered when I re-introduced the code for styling the div with id 'reach-out'. Deleting this bit of code (as it wasn't strictly necessary) in my media queries resolved the bug for good.
 
 # Deployment
 

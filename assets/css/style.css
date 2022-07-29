@@ -360,7 +360,7 @@ footer {
     }
 
     footer {
-        background-color: orangered;
+        background-color: black;
     }
     
 }
@@ -496,7 +496,7 @@ footer {
         position: fixed;
         bottom: 0;
         width: 100%;
-        background-color: orangered;
+        background-color: black;
     }
 
     .social-media-links > li {
